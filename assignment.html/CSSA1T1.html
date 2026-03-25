@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Registration</title>
+    <style>
+     body
+     {
+      background-color: rgb(66, 105, 202);
+      border: 400px;
+      border-width: 250px;
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+     }
+     .form
+     {
+        display: flex;
+       justify-content: center;
+       align-items: center;
+        gap: 0px;
+        padding: 30px;
+       
+       
+
+     }
+     .page
+     {
+        background-color: white;
+        
+        margin-top: 100px;
+       margin-right: 70px;
+       padding:30px;
+        gap: 50px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+        padding-left: 40px;
+        padding-top: 20px;
+        width:200px;
+        display: right;
+
+     }
+     .input{
+        gap: 10px;
+        margin-top: 10px;
+       
+     }
+     input{
+         border: none;
+        border-bottom: 2px rgba(47, 38, 38, 0.486) solid;
+       outline: none;
+        width: 100%;
+        padding: 8px;
+         background: transparent;
+     }
+     input:focus{
+        border-bottom: 2px  solid black;
+     }
+     .page h2{
+        margin-bottom: 20px;
+     }
+     .page1{
+         background-color: white;
+        padding:30px;
+        gap: 50px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+        padding-left: 40px;
+        padding-top: 20px;
+        width:200px;
+        display: right;
+        margin-left: 300px;
+        margin-top: -315px;
+
+     }
+     .option {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 15px;
+     }
+     button{
+         width: 100%;
+    padding: 10px;
+    border: none;
+    background:rgb(66, 105, 202);
+     }
+     .footer
+     {
+        text-align: right;
+        font-size: 12px;
+        gap: 20px;
+     }
+    </style>
+</head>
+<body>
+    <form>
+        <div class = "form"></div>
+        <div class ="page">
+            <h3>Login</h3>
+            <div class ="input">
+              <input type ="email" placeholder=" enter your email">
+            </div>
+            <div class ="input">
+                <input type ="password" placeholder ="confirm your password">
+             </div>
+             <div class ="option">
+                <label><input type ="checkbox">Remember me</label>
+                <span>Forgot password?</span>
+             </div>
+             <button type ="login now">LOGIN NOW</button>
+             <div class ="footer">
+                Don't have an account?<b>signup now</b>
+             </div>
+        
+        </div>
+        <div class ="page1">
+            <h3>Registration</h3>
+            <div class ="input">
+                <input type ="text" placeholder = "enter your name ">
+                <input type ="email" placeholder = "enter your email">
+                </div>
+                 <div class="input">
+            <input type="password" placeholder="Create a password">
+        </div>
+
+        <div class="input">
+            <input type="password" placeholder="Confirm a password">
+        </div>
+
+        <div class="option">
+            <label><input type="checkbox"> I accept all terms & conditions</label>
+        </div>
+
+        <button>Register Now</button>
+
+        <div class="footer">
+            Already have an account? <b>Login now</b>
+        </div>
+             </div>
+             </div>
+    </form>
+    
+</body>
+</html>

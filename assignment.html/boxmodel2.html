@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+    <style>
+      body{
+        margin:auto;
+        font-family:Arial, Helvetica, sans-serif;
+        background-color: white;
+        border: 200px;
+        
+    }
+    .container{
+        background-color: rgb(179, 221, 237);
+        width: 600px;
+         background: rgb(166, 213, 231);
+        padding:30px;
+        margin:50px auto;
+        text-align:center;
+        border-radius: 10px;
+       margin-top: 20px;
+       
+
+
+    }
+    .options{
+        text-align:left;
+       margin: 0;
+      
+        margin: 0;
+        align-items: left;
+       padding-left: 0;
+        gap: 20px;
+        display: inline;
+        
+    }
+    .options label{
+        display: block;
+        margin-left: 0;
+    }
+  
+
+    input[type ="checkbox"]
+    {
+        margin-right: -60px;
+    }
+    .info{
+        text-align: right;
+        
+        padding: -40px;
+          margin-top: -180px;
+       
+
+    }
+    
+    h2{
+       
+        margin-bottom:20px;
+    }
+    input,select
+    {
+       width:200px;
+       padding:10px;
+       margin:8px 0;
+       
+       
+    }
+   
+    button{
+     width:100px;
+      padding:12px;
+    background:black;
+    color:white;
+    border: none;
+    margin-top: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <h2>Enquiry form</h2>
+        <p>Have questions or need assistance?Fill out the form below to connect with our team and explore your opportunities</p>
+        <form>
+           
+            <input type ="text" placeholder="person name">
+            <input type ="contact number" placeholder ="contact number">
+           <br>
+            
+            <input type="email" placeholder ="email">
+           
+            <input type="text" placeholder ="qualifications">
+            <br>
+           
+            <input type="text" placeholder ="college/school name">
+            <br>
+                  <label>Year*</label>
+                  <select>
+                  <option>Year</option>
+                  <option>1st Year</option>
+                  <option>2nd Year</option>
+                  <option>3rd Year</option>
+                <option>4th Year</option>
+                  </select>
+            <input type="text" placeholder ="Branch">
+            <br>
+            <div class ="options">
+              
+             
+            <label>interested in which course?</label>
+            <div class="row">
+            <input type="checkbox"> Full Stack Web Development <br>
+            <input type="checkbox"> Data Science with Python <br>
+            <input type="checkbox"> Data Analytics with Python <br>
+            <input type="checkbox"> Business Analyst <br>
+            <input type="checkbox"> Java Programming <br>
+            <input type="checkbox"> Python Programming <br>
+            <input type="checkbox"> C/C++ Programming <br>
+            <input type="checkbox"> Other
+            </div>
+            <div class="info">
+            <label>Source of Information</label>
+          <select>
+           <option>Source of Information</option>
+           <option>Internet</option>
+             <option>Friends</option>
+            <option>Advertisement</option>
+               <option>Institute Call</option>
+          </select>
+         
+         <br><br>
+  <label>Name of Executive*</label>
+        <select>
+        <option>Name of Executive</option>
+         <option>Executive 1</option>
+         <option>Executive 2</option>
+        </select>
+        </div>
+        </div>
+        <button type="submit">Submit</button>
+        
+        </form>
+    </div>
+       
+</body>
+</html>
